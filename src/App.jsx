@@ -1,7 +1,7 @@
 
 import Navbar from "./components/Navbar"
 import { ThemeProvider } from "./context/ThemeContext"
-import Routing from "./utils/routing"
+import Routing from "../src/utils/Routing"
 
 
 const App = () => {
