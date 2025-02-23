@@ -2,6 +2,7 @@
 import Aboutme from "./Aboutme"
 import Hero from "./Hero"
 import Services from "./Services"
+import Testimonials from "./Testimonials"
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
         <Hero/>
         <Services/>
         <Aboutme/>
+        <Testimonials/>
   
     </div>
   )
