@@ -19,7 +19,9 @@ const Hero = () => {
                    </h1>
                 
                 <h1 className="font-semibold text-6xl mb-3">Embedded Enginner,</h1>
-                <h1 className="font-semibold text-6xl mb-6">RTOS & IoT Solutions Expert</h1>
+                <h1 className="font-semibold text-6xl mb-6">
+                  <TextChange/>
+                </h1>
                 <p className="text-[#b3b3b3] font-semibold mb-8">Entrepreneur & Inventor | RTOS & IoT Solutions Expert | Marketing & <br /> Branding Specialist | Innovation Management Professional | Musical <br /> Instrument Researcher & Performer</p>
                 <div className="btn-group space-x-3">
                     <button className="bg-black text-white font-semibold px-8 py-2 rounded-full">Hire Me</button>
