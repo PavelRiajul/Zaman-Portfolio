@@ -4,6 +4,7 @@ import marque from '../assets/streamline-solid.png'
 import { useContext } from 'react';
 import { ThemeContext } from '../context/ThemeContext';
 import { BsMoon, BsSun } from 'react-icons/bs';
+import TextChange from '../components/TextChange';
 const Hero = () => {
      const {isDarkMode,toggleTheme} = useContext(ThemeContext);
   return (
@@ -13,7 +14,10 @@ const Hero = () => {
         {/* text content */}
             <div className="w-[50%]">
                 <h2 className="font-semibold text-4xl py-2 px-5    border-2 border-gray-400 inline p-2">Hello !</h2>
-                <h1 className="font-semibold text-6xl mt-10 mb-6">I'm <span className="underline text-[#f9ad1b]">Parvej Jaman,</span></h1>
+                <h1 className="font-semibold text-6xl mt-10 mb-6">I'm
+                   <span className='underline text-[#F9AD1B]'>Parvej Jaman,</span>
+                   </h1>
+                
                 <h1 className="font-semibold text-6xl mb-3">Embedded Enginner,</h1>
                 <h1 className="font-semibold text-6xl mb-6">RTOS & IoT Solutions Expert</h1>
                 <p className="text-[#b3b3b3] font-semibold mb-8">Entrepreneur & Inventor | RTOS & IoT Solutions Expert | Marketing & <br /> Branding Specialist | Innovation Management Professional | Musical <br /> Instrument Researcher & Performer</p>
