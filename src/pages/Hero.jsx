@@ -1,6 +1,6 @@
 import {motion} from 'framer-motion'
-import zaman from '../../public/zaman-img.png'
-import marque from '../../public/streamline-solid.png'
+import zaman from '../assets/zaman-img.png'
+import marque from '../assets/streamline-solid.png'
 import { useContext } from 'react';
 import { ThemeContext } from '../context/ThemeContext';
 import { BsMoon, BsSun } from 'react-icons/bs';
