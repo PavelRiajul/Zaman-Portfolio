@@ -11,9 +11,9 @@ const Portfolio = () => {
              <div className="flex flex-col sm:flex-col md:flex-row justify-between items-center">
                 <div>
                 <h1 className="text-black text-2xl font-semibold"><span className="text-[#F9AD1B] text-3xl">-</span>My Portfolio</h1>
-                <h1 className="text-5xl font-semibold">My Latest <span className="text-[#F9AD1B] italic">Projects</span></h1>
+                <h1 className="text-5xl portfolio-heading font-semibold">My Latest <span className="text-[#F9AD1B] italic">Projects</span></h1>
                 </div>
-            <div className="btn w-60  h-11 rounded-full shadow-2xl bg-[#F9AD1B] flex ">
+            <div className="btn-portfolio-1 w-60  h-11 rounded-full shadow-2xl bg-[#F9AD1B] flex ">
             <div className="flex items-center gap-1  ">
             <button type="submit" className="px-10 hover:bg-emerald-700 transition-all cursor-pointer  flex  text-white bg-emerald-950 rounded-full py-2">View All Projects </button>
             <span className="bg-white rounded-full p-1"><FaArrowRight /></span>

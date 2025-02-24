@@ -8,8 +8,8 @@ const Footer = () => {
         <div  className="container mx-auto max-w-screen-2xl   py-20 px-34">
             {/* heading button */}
             <div className="flex flex-col sm:flex-col md:flex-row justify-between items-center">
-            <h1 className="text-5xl font-semibold">Let's <span className="text-[#F9AD1B]">Connect</span> there</h1>
-            <div className="btn w-32 h-11 rounded-full bg-[#F9AD1B] flex items-center">
+            <h1 className="text-5xl footer-heading font-semibold">Let's <span className="text-[#F9AD1B]">Connect</span> there</h1>
+            <div className="btn-footer-1 w-32 h-11 rounded-full bg-[#F9AD1B] flex items-center">
             <div className="flex items-center gap-1  ">
             <button type="submit" className="px-5 cursor-pointer ml-1 flex items-center text-white bg-emerald-950 rounded-full py-2">Submit</button>
             <span className="bg-white rounded-full p-1"><FaArrowRight /></span>
@@ -31,8 +31,8 @@ const Footer = () => {
         </div>
          {/* navigation */}
          <div>
-         <h1 className="text-[#F9AD1B] font-semibold text-2xl">Navigation</h1>
-          <div className="flex flex-col gap-1 text-[#6d6c6c]">
+         <h1 className="text-[#F9AD1B] footer-nav font-semibold text-2xl">Navigation</h1>
+          <div className="flex footer-nav-item flex-col gap-1 text-[#6d6c6c]">
             <Link to={'/'}>Home</Link>
             <Link to={'/services'}>Services</Link>
             <Link to={'/about'}>About Me</Link>
@@ -40,7 +40,7 @@ const Footer = () => {
          </div>
          </div>
           {/* social link */}
-          <div className="flex items-center gap-3">
+          <div className="flex social-icon items-center gap-3">
              <span className="  p-3 rounded-full bg-[#F9AD1B] hover:bg-amber-500 transition-all  hover:scale-90 cursor-pointer "><FaFacebookSquare className="w-5 h-5" /></span>
              <span className="  p-3 rounded-full bg-[#F9AD1B] hover:bg-amber-500 transition-all  hover:scale-90 cursor-pointer "><FaYoutube className="w-5 h-5"  /></span>
              <span className="  p-3 rounded-full bg-[#F9AD1B] hover:bg-amber-500 transition-all  hover:scale-90 cursor-pointer "><FaTwitter className="w-5 h-5"  /></span>

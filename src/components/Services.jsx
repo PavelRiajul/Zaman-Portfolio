@@ -10,8 +10,8 @@ const Services = () => {
            {/* heading content */}
            <h1 className="text-black text-2xl font-semibold"><span className="text-[#1464ff] text-3xl">-</span>Services</h1>
            <div className="flex flex-col sm:flex-col md:flex-row justify-between">
-            <h1 className="font-semibold text-5xl"><span className="text-[#F9AD1B]">Services</span> I Provide</h1>
-            <button className="flex hover:bg-black hover:text-white cursor-pointer transition-all items-center justify-center gap-2 px-6 py-2 rounded-full bg-[#F9AD1B]">See More<FaArrowRight  className=" rounded-full  bg-white "/></button>
+            <h1 className="font-semibold service-h text-5xl"><span className="text-[#F9AD1B]">Services</span> I Provide</h1>
+            <button className="flex btn-seemore hover:bg-black hover:text-white cursor-pointer transition-all items-center justify-center gap-2 px-6 py-2 rounded-full bg-[#F9AD1B]">See More<FaArrowRight  className=" rounded-full  bg-white "/></button>
             </div>
             {/* card design */}
             <div className="mt-10">

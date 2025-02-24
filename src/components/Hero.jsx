@@ -22,8 +22,8 @@ const Hero = () => {
                   <TextChange/>
                 </h1>
                 <p className="text-[#b3b3b3] heading-4 font-semibold mb-8">Entrepreneur & Inventor | RTOS & IoT Solutions Expert | Marketing & <br /> Branding Specialist | Innovation Management Professional | Musical <br /> Instrument Researcher & Performer</p>
-                <div className="btn-group space-x-3">
-                    <button className="bg-black btn animate__animated animate__backInLeft text-white hover:bg-[#F9AD1B] cursor-pointer transition-all font-semibold px-8 py-2 rounded-full">Hire Me</button>
+                <div className="btn-group flex sm:flex-row space-x-3">
+                    <button className="bg-black btn-2 animate__animated animate__backInLeft text-white hover:bg-[#F9AD1B] cursor-pointer transition-all font-semibold px-8 py-2 rounded-full">Hire Me</button>
                     <button className=" text-black btn-2 cursor-pointer hover:bg-[#F9AD1B] hover:text-white transition-all border-2 border-gray-500 font-semibold px-8 py-2 rounded-full animate__animated animate__backInRight">Whatsapp</button>
                 </div>
             </div>

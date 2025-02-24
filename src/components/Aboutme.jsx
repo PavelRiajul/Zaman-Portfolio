@@ -3,19 +3,19 @@ import round  from '../assets/zama-round.png'
 
 const Aboutme = () => {
   return (
-    <section className=" ">
+    <section className="about-section ">
         <div className='container mx-auto max-w-screen-2xl  py-20  px-4'>
             <div className='flex flex-col sm:flex-col md:flex-row justify-between items-center '>
                  {/* left image */}
             <div className=' '>
-                <img src={round} alt=""  className='w-[511px] bg-white rounded-full'/>
+                <img src={round} alt=""  className='w-[511px] about-img bg-white rounded-full'/>
             </div>
             {/* right content */}
             <div className='w-[60%] '>
             <h1 className="text-black text-2xl font-semibold mb-10"><span className="text-[#1464ff] text-3xl">-</span>About Me</h1>
-            <h1 className='text-5xl font-semibold mb-4  '>Who is Parvej Jaman?</h1>
-            <p className='text-xl'>Parvej Jaman – Embedded Engineer, IoT Expert, Brand <br /> Specialist, Entrepreneur & Investor—driving innovation, <br /> smart solutions, and scalable businesses for future <br /> growth.</p>
-            <div className='flex items-center gap-10 mt-10'>
+            <h1 className='text-5xl font-semibold mb-4 about-heading-1  '>Who is Parvej Jaman?</h1>
+            <p className='text-xl about-text'>Parvej Jaman – Embedded Engineer, IoT Expert, Brand <br /> Specialist, Entrepreneur & Investor—driving innovation, <br /> smart solutions, and scalable businesses for future <br /> growth.</p>
+            <div className='flex counter items-center gap-10 mt-10'>
                 <div className="project">
                     <h1 className='font-bold text-3xl'>650+</h1>
                     <p>Project Completed</p>
@@ -29,7 +29,7 @@ const Aboutme = () => {
                     <p>Years of Experience</p>
                 </div>
             </div>
-            <div className="btn mt-8">
+            <div className="btn-about mt-8">
                 <button className='border-2 hover:bg-[#F9AD1B] hover:text-white transition-all flex items-center gap-2 px-2 py-2 rounded-full'>Download CV <FaArrowRight className='rounded '  />
                 </button>
             </div>

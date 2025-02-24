@@ -28,11 +28,11 @@ const Form = () => {
             {/* left heading contact */}
             <div className="">
             <h1 className="text-black text-2xl font-semibold"><span className="text-[#F9AD1B] text-3xl">-</span>Contact Us</h1>
-            <h1 className="text-5xl font-normal mb-1">Let's Talk for <span className="text-[#F9AD1B]">Your</span></h1>
-            <h1 className="text-5xl text-[#F9AD1B] font-normal mb-4">Next Projects</h1>
-            <p className="text-[#b3b3b3] text-xl mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Fugit eligendi adipisci nemo iste odit?</p>
+            <h1 className="text-5xl font-normal form-heading mb-1">Let's Talk for <span className="text-[#F9AD1B]">Your</span></h1>
+            <h1 className="text-5xl text-[#F9AD1B]  form-heading font-normal mb-4">Next Projects</h1>
+            <p className="text-[#b3b3b3] form-text-1 text-xl mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Fugit eligendi adipisci nemo iste odit?</p>
             {/* contact */}
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col contact-group gap-3">
                 <div className="one flex items-center gap-1">
                 <span className=" rounded-full p-3 bg-[#F9AD1B]"><IoCallSharp  className="w-5 h-5"/> </span> 
                 <span className="text-[#6d6c6c] text-xl">+1(406)555-0120</span>
