@@ -5,7 +5,7 @@ import brand from '../assets/brand.webp'
 import {motion} from 'framer-motion'
 const Services = () => {
   return (
-    <section className="container mx-auto  max-w-screen-2xl py-20 px-4">
+    <section className="container services-header mx-auto  max-w-screen-2xl py-20 px-4">
         <div>
            {/* heading content */}
            <h1 className="text-black text-2xl font-semibold"><span className="text-[#1464ff] text-3xl">-</span>Services</h1>

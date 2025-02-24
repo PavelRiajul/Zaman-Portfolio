@@ -30,3 +30,56 @@
         transform: translateX(calc(-100% - 20px));
     }
 }
+
+ /* Mobile Devices (max-width: 480px) */ 
+ @media(max-width:480px){
+    .section-1{
+        margin:0;
+        margin-top:200px;
+    }
+    .heading-1{
+        border: 1px solid red;
+        width: 800px;
+        font-size: 6rem;
+    }
+    .heading-2{
+        border: 1px solid red;
+        width: 800px;
+        font-size: 4rem;
+        margin-top: 10px;
+    }
+    .heading-3{
+        border: 1px solid red;
+        width: 800px;
+        font-size: 4rem;
+        margin-top: 5px;
+    }
+    .heading-4{
+        width: 900px;
+        font-size: 24px;
+        color: gray;
+    }
+    .btn-group{
+        border: 1px solid red;
+        width: 600px;
+        margin: auto;
+        margin-left: 120px;
+    }
+    .btn{
+        font-size: 40px;
+    }
+
+    .img-1{
+        padding-top: 80px;
+        max-width: 1200px;
+        margin-left: 500px;
+        
+    }
+    .marque{
+        width: 1000px;
+    }
+    /* services section */
+    .services-header{
+        margin-top: 500px;
+    }
+ }
