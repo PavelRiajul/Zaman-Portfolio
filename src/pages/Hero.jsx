@@ -14,8 +14,7 @@ const Hero = () => {
         {/* text content */}
             <div className="w-[50%]">
                 <h2 className="font-semibold text-4xl py-2 px-5    border-2 border-gray-400 inline p-2">Hello !</h2>
-                <h1 className="font-semibold text-6xl mt-10 mb-6">I'm
-                   <span className='underline text-[#F9AD1B]'>Parvej Jaman,</span>
+                <h1 className="font-semibold text-6xl mt-10 mb-6">I'm <span className='underline text-[#F9AD1B]'>Parvej Jaman,</span>
                    </h1>
                 
                 <h1 className="font-semibold text-6xl mb-3">Embedded Enginner,</h1>
@@ -50,14 +49,59 @@ const Hero = () => {
       {/* marque */}
       <div>
             <div className="w-full h-[96px] bg-[#353341] rotate-1 -mt-4  relative  ">
-                <div id='elem' className='w-full h-[86px] bg-[#F9AD1B] -rotate-1 flex justify-between items-center'>
+                <div  id='elem'  className='w-full h-[86px] bg-[#F9AD1B] -rotate-1 flex justify-between items-center'>
                    <h1 className='font-medium text-4xl text-white'>Brand Specialist</h1>
-                   <img src={marque} alt="" className='w-10 h-10'/>
-                   <h1 className='font-medium text-4xl text-white'>Embedded Engineer</h1>
-                   <img src={marque} alt="" className='w-10 h-10'/>
-                   <h1 className='font-medium text-4xl text-white'>IOT Expert</h1>
-                   <img src={marque} alt="" className='w-=10 h-10'/>
+                   <img
+                    src={marque} alt="" className='w-10 h-10'/>
+                   <h1
+                   
+                    className='font-medium text-4xl text-white'>Embedded Engineer</h1>
+                   <img
+                    src={marque} alt="" className='w-10 h-10'/>
+                   <h1
+                    className='font-medium text-4xl text-white'>IOT Expert</h1>
+                   <img
+                    src={marque} alt="" className='w-=10 h-10'/>
                    <h1 className='font-medium text-4xl text-white'>Entrepreneur &</h1>
+
+                      
+
+
+                    {/* <motion.h1
+                   initial={{x:'left'}}
+                   animate={{x:-100}} 
+                    transition={{ease:"linear",duration:1,repeat:Infinity}}
+                    className='font-medium text-4xl text-white'>Brand Specialist</motion.h1>
+                   <motion.img
+                    initial={{x:0}}
+                    animate={{x:-100}} 
+                     transition={{ease:"linear",duration:1,repeat:Infinity}}
+                    src={marque} alt="" className='w-10 h-10'/>
+                   <motion.h1
+                    initial={{x:'left'}}
+                    animate={{x:-100}} 
+                     transition={{ease:"linear",duration:1,repeat:Infinity}}
+                    className='font-medium text-4xl text-white'>Embedded Engineer</motion.h1>
+                   <motion.img
+                    initial={{x:'left'}}
+                    animate={{x:-100}} 
+                     transition={{ease:"linear",duration:1,repeat:Infinity}}
+                    src={marque} alt="" className='w-10 h-10'/>
+                   <motion.h1
+                    initial={{x:'left'}}
+                    animate={{x:-100}} 
+                     transition={{ease:"linear",duration:1,repeat:Infinity}}
+                    className='font-medium text-4xl text-white'>IOT Expert</motion.h1>
+                   <motion.img
+                    initial={{x:'left'}}
+                    animate={{x:-100}} 
+                     transition={{ease:"linear",duration:1,repeat:Infinity}}
+                    src={marque} alt="" className='w-=10 h-10'/>
+                   <motion.h1
+                    initial={{x:'left'}}
+                    animate={{x:-100}} 
+                     transition={{ease:"linear",duration:1,repeat:Infinity}}
+                    className='font-medium text-4xl text-white'>Entrepreneur &</motion.h1> */}
                 </div>
             </div>
         </div>

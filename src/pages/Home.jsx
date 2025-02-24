@@ -1,4 +1,5 @@
 
+import Form from "../components/Form"
 import Aboutme from "./Aboutme"
 import Hero from "./Hero"
 import Services from "./Services"
@@ -12,6 +13,7 @@ const Home = () => {
         <Services/>
         <Aboutme/>
         <Testimonials/>
+        <Form/>
   
     </div>
   )

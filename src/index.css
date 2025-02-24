@@ -4,3 +4,29 @@
     @apply bg-gray-900 text-white
 }
 
+#elem{
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+#elem h1 {
+    
+     -webkit-text-stroke: 1px #fff; 
+    font-weight: 400;
+    text-transform: uppercase;
+    display:inline-block;
+    margin-right: 16px;
+    animation-name: marque;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes marque {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-100% - 20px));
+    }
+}
