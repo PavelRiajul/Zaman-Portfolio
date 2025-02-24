@@ -1,4 +1,5 @@
 
+import Footer from "../components/Footer"
 import Form from "../components/Form"
 import Aboutme from "./Aboutme"
 import Hero from "./Hero"
@@ -14,6 +15,7 @@ const Home = () => {
         <Aboutme/>
         <Testimonials/>
         <Form/>
+        <Footer/>
   
     </div>
   )
