@@ -37,7 +37,7 @@
         margin:0;
         margin-top:100px;
     }
-    .heading{
+    .heading-a{
         margin-left: -90px;
     }
     .heading-1{
@@ -102,6 +102,7 @@
     /* services section */
     .services-header{
         margin-top: 100px;
+        
     }
     .service-h{
         /* border:1px solid red; */
@@ -115,9 +116,10 @@
     }
     /* about me */
     .about-section{
+        /* border: 1px solid red; */
         margin: 0;
         padding: 0;
-        margin-left: -50px;
+  
     }
     .about-img{
         width: 340px;
@@ -175,19 +177,20 @@
     /* portfolio */
     .portfolio-heading{
         /* border:1px solid red; */
-        font-size: 3rem;
-        margin-left: -44px;
+        font-size: 2.4rem;
+        margin-left: -14px;
     }
     .btn-portfolio-1{
         /* border: 1px solid red; */
         margin-left: -50px;
         margin-top: 20px;
     }
-    .card{
-        /* border: 1px solid red; */
+    .cards{
         width: 100%;
-        padding: 0;
-        margin-left: -30px;
+        /* border: 1px solid red; */
+        
+      
+       
     }
     /* footer section */
     .footer-heading{

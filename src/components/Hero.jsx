@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="flex flex-col sm:flex-col md:flex-row  items-center justify-between">
         {/* text content */}
             <div className="w-[50%]">
-                <h2 className=" heading font-semibold  text-4xl py-2 px-5    border-2 border-gray-400 inline p-2">Hello !</h2>
+                <h2 className=" heading-a font-semibold  text-4xl py-2 px-5    border-2 border-gray-400 inline p-2">Hello !</h2>
                 <h1 className=" heading-1 font-semibold text-6xl mt-10 mb-6">I'm <span className='underline text-[#F9AD1B]'>Parvej Jaman,</span>
                    </h1>
                 
