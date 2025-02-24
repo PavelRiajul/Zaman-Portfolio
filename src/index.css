@@ -39,44 +39,51 @@
     }
     .heading-1{
         border: 1px solid red;
-        width: 800px;
-        font-size: 6rem;
+        width: 300px;
+        margin: 0;
+        margin-top: 20px;
+        font-size: 2rem;
     }
     .heading-2{
         border: 1px solid red;
-        width: 800px;
-        font-size: 4rem;
+        width: 310px;
+        font-size: 2rem;
         margin-top: 10px;
     }
     .heading-3{
         border: 1px solid red;
-        width: 800px;
-        font-size: 4rem;
+        width: 300px;
+        font-size: 1.3rem;
         margin-top: 5px;
     }
     .heading-4{
-        width: 900px;
-        font-size: 24px;
+        width: 300px;
+        font-size: 14px;
         color: gray;
     }
     .btn-group{
         border: 1px solid red;
-        width: 600px;
+        width: 300px;
         margin: auto;
-        margin-left: 120px;
+        
+
     }
     .btn{
-        font-size: 40px;
+        font-size: 30px;
+        display: flex; 
+        align-items: center;
+        justify-content: space-between;
     }
 
     .img-1{
         padding-top: 80px;
-        max-width: 1200px;
-        margin-left: 500px;
+        max-width: 400px;
+        margin-left: 50px;
+
         
     }
     .marque{
-        width: 1000px;
+  
     }
     /* services section */
     .services-header{
