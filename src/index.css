@@ -39,31 +39,31 @@
     }
     .heading-1{
         border: 1px solid red;
-        width: 300px;
+
         margin: 0;
         margin-top: 20px;
         font-size: 2rem;
     }
     .heading-2{
         border: 1px solid red;
-        width: 310px;
+  
         font-size: 2rem;
         margin-top: 10px;
     }
     .heading-3{
         border: 1px solid red;
-        width: 300px;
+
         font-size: 1.3rem;
         margin-top: 5px;
     }
     .heading-4{
-        width: 300px;
+
         font-size: 14px;
         color: gray;
     }
     .btn-group{
         border: 1px solid red;
-        width: 300px;
+
         margin: auto;
         
 
@@ -77,24 +77,31 @@
 
     .img-1{
         padding-top: 80px;
-        max-width: 400px;
-        margin-left: 50px;
+
+
 
         
     }
     .marque{
-  
+     width: 200px;
     }
     /* services section */
     .services-header{
         margin-top: 500px;
     }
+    /* form section */
     .text-area{
         margin: 0;
         padding: 0;
-        width: 300px;
+        width: 250px;
+       
     }
     .btn-form {
         margin: 0;
     }
+    .form-div{
+        margin-left: -100px;
+      
+    }
+
  }

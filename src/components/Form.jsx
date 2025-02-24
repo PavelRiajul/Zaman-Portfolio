@@ -58,7 +58,7 @@ const Form = () => {
             <div className="w-[60%] ">
               <div>
                 {/*  */}
-        <div className="mt-5">
+        <div className="mt-5 form-div">
       <form onSubmit={handleSubmit} className="space-y-4 ">
         <div className="flex flex-col sm:flex-col md:flex-row justify-center items-center ml-15 gap-10">
         <label className="font-semibold" htmlFor="">
