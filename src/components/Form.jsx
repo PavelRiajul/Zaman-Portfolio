@@ -125,7 +125,7 @@ const Form = () => {
         </label>
         <div className="btn w-32 h-11 rounded-full bg-[#F9AD1B] flex items-center ml-40 mt-4">
             <div className="flex items-center gap-1  ">
-            <button type="submit" className="px-5 ml-1 flex items-center text-white bg-emerald-950 rounded-full py-2">Submit</button>
+            <button type="submit" className="px-5 ml-1 cursor-pointer flex items-center text-white bg-emerald-950 rounded-full py-2">Submit</button>
             <span className="bg-white rounded-full p-1"><FaArrowRight /></span>
             </div>
         </div>

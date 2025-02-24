@@ -4,7 +4,7 @@ import marque from '../assets/streamline-solid.png'
 import { useContext } from 'react';
 import { ThemeContext } from '../context/ThemeContext';
 import { BsMoon, BsSun } from 'react-icons/bs';
-import TextChange from '../components/TextChange';
+import TextChange from './TextChange';
 const Hero = () => {
      const {isDarkMode,toggleTheme} = useContext(ThemeContext);
   return (
@@ -23,8 +23,8 @@ const Hero = () => {
                 </h1>
                 <p className="text-[#b3b3b3] font-semibold mb-8">Entrepreneur & Inventor | RTOS & IoT Solutions Expert | Marketing & <br /> Branding Specialist | Innovation Management Professional | Musical <br /> Instrument Researcher & Performer</p>
                 <div className="btn-group space-x-3">
-                    <button className="bg-black text-white font-semibold px-8 py-2 rounded-full">Hire Me</button>
-                    <button className=" text-black border-2 border-gray-500 font-semibold px-8 py-2 rounded-full">Whatsapp</button>
+                    <button className="bg-black text-white hover:bg-[#F9AD1B] cursor-pointer transition-all font-semibold px-8 py-2 rounded-full">Hire Me</button>
+                    <button className=" text-black cursor-pointer hover:bg-[#F9AD1B] hover:text-white transition-all border-2 border-gray-500 font-semibold px-8 py-2 rounded-full">Whatsapp</button>
                 </div>
             </div>
        
@@ -51,17 +51,8 @@ const Hero = () => {
             <div className="w-full h-[96px] bg-[#353341] rotate-1 -mt-4  relative  ">
                 <div  id='elem'  className='w-full h-[86px] bg-[#F9AD1B] -rotate-1 flex justify-between items-center'>
                    <h1 className='font-medium text-4xl text-white'>Brand Specialist</h1>
-                   <img
-                    src={marque} alt="" className='w-10 h-10'/>
-                   <h1
-                   
-                    className='font-medium text-4xl text-white'>Embedded Engineer</h1>
-                   <img
-                    src={marque} alt="" className='w-10 h-10'/>
-                   <h1
-                    className='font-medium text-4xl text-white'>IOT Expert</h1>
-                   <img
-                    src={marque} alt="" className='w-=10 h-10'/>
+                   <h1 className='font-medium text-4xl text-white'>Embedded Engineer</h1>
+                   <h1 className='font-medium text-4xl text-white'>IOT Expert</h1>
                    <h1 className='font-medium text-4xl text-white'>Entrepreneur &</h1>
 
                       

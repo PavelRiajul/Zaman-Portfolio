@@ -11,7 +11,7 @@ const Footer = () => {
             <h1 className="text-5xl font-semibold">Let's <span className="text-[#F9AD1B]">Connect</span> there</h1>
             <div className="btn w-32 h-11 rounded-full bg-[#F9AD1B] flex items-center">
             <div className="flex items-center gap-1  ">
-            <button type="submit" className="px-5 ml-1 flex items-center text-white bg-emerald-950 rounded-full py-2">Submit</button>
+            <button type="submit" className="px-5 cursor-pointer ml-1 flex items-center text-white bg-emerald-950 rounded-full py-2">Submit</button>
             <span className="bg-white rounded-full p-1"><FaArrowRight /></span>
             </div>
         </div>
