@@ -60,7 +60,7 @@ const Form = () => {
                 {/*  */}
         <div className="mt-5">
       <form onSubmit={handleSubmit} className="space-y-4 ">
-        <div className="flex justify-center items-center ml-15 gap-10">
+        <div className="flex flex-col sm:flex-col md:flex-row justify-center items-center ml-15 gap-10">
         <label className="font-semibold" htmlFor="">
            Your Name* <br />
             <input
@@ -86,7 +86,7 @@ const Form = () => {
         />
         </label>  
         </div>
-        <div className="flex justify-center items-center ml-15 gap-10">
+        <div className="flex flex-col sm:flex-col md:flex-row justify-center items-center ml-15 gap-10">
             <label className="font-semibold" htmlFor="">
                 Phone* <br />
                 <input
@@ -119,11 +119,11 @@ const Form = () => {
           placeholder="Your Message"
           value={formData.message}
           onChange={handleChange}
-          className=" bg-[#efefef] w-150 ml-40 h-50 mt-2 placeholder:p-2 rounded-md"
+          className=" text-area bg-[#efefef] w-150 ml-40 h-50 mt-2 placeholder:p-2 rounded-md"
           required
         ></textarea>
         </label>
-        <div className="btn w-32 h-11 rounded-full bg-[#F9AD1B] flex items-center ml-40 mt-4">
+        <div className="btn-form w-32 h-11 rounded-full bg-[#F9AD1B] flex items-center ml-40 mt-4">
             <div className="flex items-center gap-1  ">
             <button type="submit" className="px-5 ml-1 cursor-pointer flex items-center text-white bg-emerald-950 rounded-full py-2">Submit</button>
             <span className="bg-white rounded-full p-1"><FaArrowRight /></span>

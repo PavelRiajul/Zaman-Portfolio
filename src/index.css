@@ -82,4 +82,12 @@
     .services-header{
         margin-top: 500px;
     }
+    .text-area{
+        margin: 0;
+        padding: 0;
+        width: 300px;
+    }
+    .btn-form {
+        margin: 0;
+    }
  }
