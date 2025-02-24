@@ -24,7 +24,7 @@ const Form = () => {
       };
   return (
     <section className="container mx-auto max-w-screen-2xl py-20 px-4">
-        <div className="flex justify-center items-center ml-20">
+        <div className="flex flex-col sm:flex-col md:flex-row justify-center items-center ml-20">
             {/* left heading contact */}
             <div className="">
             <h1 className="text-black text-2xl font-semibold"><span className="text-[#F9AD1B] text-3xl">-</span>Contact Us</h1>

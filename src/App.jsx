@@ -1,4 +1,4 @@
-
+import 'animate.css';
 import Navbar from "./components/Navbar"
 import { ThemeProvider } from "./context/ThemeContext"
 import Routing from "../src/utils/Routing"

@@ -15,7 +15,7 @@ const Services = () => {
             </div>
             {/* card design */}
             <div className="mt-10">
-                <div className=" flex justify-around  gap-6    ">
+                <div className=" flex flex-col sm:flex-col md:flex-row items-center justify-around  gap-6    ">
                 <motion.div drag className="card w-[345px]  flex flex-col rounded-2xl shadow-2xl  hover:scale-125 transition-all gap-3 p-8 ">
                     <img className="w-[90px]" src={embeded} alt="" />
                     <h1 className="heading  text-3xl font-semibold">Embedded Engineer</h1>

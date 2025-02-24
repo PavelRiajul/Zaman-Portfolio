@@ -8,7 +8,7 @@ const Portfolio = () => {
     <section className="container mx-auto max-w-screen-2xl py-20 px-4">
         <div>
             {/* heading button */}
-             <div className="flex justify-between items-center">
+             <div className="flex flex-col sm:flex-col md:flex-row justify-between items-center">
                 <div>
                 <h1 className="text-black text-2xl font-semibold"><span className="text-[#F9AD1B] text-3xl">-</span>My Portfolio</h1>
                 <h1 className="text-5xl font-semibold">My Latest <span className="text-[#F9AD1B] italic">Projects</span></h1>
@@ -21,7 +21,7 @@ const Portfolio = () => {
         </div>
         </div>
         {/* project cards */}
-        <div className="cards mt-5 flex justify-between items-center gap-5">
+        <div className="cards mt-5 flex flex-col sm:flex-col md:flex-row justify-between items-center gap-5">
          <div className="card  w-[25%] hover:scale-125 transition-all flex flex-col items-center rounded-md shadow-2xl p-2   ">
             <img src={card1} alt="card1" className="rounded-md" />
             <h2 className="p-2 mt-2 leading-7 hover:text-gray-950 transition-all  pt-2 font-medium text-gray-600 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio tempore unde.</h2>

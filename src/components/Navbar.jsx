@@ -9,13 +9,13 @@ const Navbar = () => {
           <Link to={'/'} className="font-medium text-xl">hi@itsparvej.com</Link>
           {/* desktop menu items */}
          <div className="flex gap-10 text-[#878787] font-semibold text-xl">
-            <NavLink  className={({ isActive }) =>isActive ? "text-[#F9AD1B]" : "text-black"} to={'/'}>Home</NavLink>
+            <NavLink   className={({ isActive }) =>isActive ? "text-[#F9AD1B]" : "text-black"} to={'/'}>Home</NavLink>
             <NavLink className={({ isActive }) =>isActive ? "text-[#F9AD1B]" : "text-black"} to={'/services'}>Services</NavLink>
             <NavLink className={({ isActive }) =>isActive ? "text-[#F9AD1B]" : "text-black"} to={'/about'}>About Me</NavLink>
             <NavLink className={({ isActive }) =>isActive ? "text-[#F9AD1B]" : "text-black"} to={'/project'}>Projects</NavLink>
          </div>
          {/* button */}
-         <button className="text-white px-5 py-2 rounded-[28px] bg-black hover:bg-white hover:text-black transition-all cursor-pointer">Contact me</button>
+         <button className="text-white px-5 py-2 rounded-[28px] bg-black hover:bg-white hover:text-black transition-all cursor-pointer animate__animated animate__backInDown">Contact me</button>
         </nav>
     </header>
   )

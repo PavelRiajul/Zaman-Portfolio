@@ -5,7 +5,7 @@ const Aboutme = () => {
   return (
     <section className=" ">
         <div className='container mx-auto max-w-screen-2xl  py-20  px-4'>
-            <div className='flex justify-between items-center '>
+            <div className='flex flex-col sm:flex-col md:flex-row justify-between items-center '>
                  {/* left image */}
             <div className=' '>
                 <img src={round} alt=""  className='w-[511px] bg-white rounded-full'/>

@@ -7,7 +7,7 @@ const Footer = () => {
     <section >
         <div  className="container mx-auto max-w-screen-2xl   py-20 px-34">
             {/* heading button */}
-            <div className="flex justify-between items-center">
+            <div className="flex flex-col sm:flex-col md:flex-row justify-between items-center">
             <h1 className="text-5xl font-semibold">Let's <span className="text-[#F9AD1B]">Connect</span> there</h1>
             <div className="btn w-32 h-11 rounded-full bg-[#F9AD1B] flex items-center">
             <div className="flex items-center gap-1  ">
@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
         <hr  className="text-gray-300 my-10" />
         {/* ff */}
-    <div className="flex justify-between items-center ">
+    <div className="flex flex-col sm:flex-col md:flex-row justify-between items-center ">
         <div>
         <Link to={'/'} className="font-medium text-xl ">hi@itsparvej.com</Link>
         <h1 className="text-[#F9AD1B] font-semibold text-2xl mb-2 mt-3">Contact</h1>

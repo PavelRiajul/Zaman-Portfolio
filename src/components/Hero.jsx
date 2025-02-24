@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <section className=" h-screen md:pt-44  ">
       <div className="container    mx-auto">
-      <div className="flex  items-center justify-between">
+      <div className="flex flex-col sm:flex-col md:flex-row  items-center justify-between">
         {/* text content */}
             <div className="w-[50%]">
                 <h2 className="font-semibold text-4xl py-2 px-5    border-2 border-gray-400 inline p-2">Hello !</h2>
@@ -23,8 +23,8 @@ const Hero = () => {
                 </h1>
                 <p className="text-[#b3b3b3] font-semibold mb-8">Entrepreneur & Inventor | RTOS & IoT Solutions Expert | Marketing & <br /> Branding Specialist | Innovation Management Professional | Musical <br /> Instrument Researcher & Performer</p>
                 <div className="btn-group space-x-3">
-                    <button className="bg-black text-white hover:bg-[#F9AD1B] cursor-pointer transition-all font-semibold px-8 py-2 rounded-full">Hire Me</button>
-                    <button className=" text-black cursor-pointer hover:bg-[#F9AD1B] hover:text-white transition-all border-2 border-gray-500 font-semibold px-8 py-2 rounded-full">Whatsapp</button>
+                    <button className="bg-black animate__animated animate__backInLeft text-white hover:bg-[#F9AD1B] cursor-pointer transition-all font-semibold px-8 py-2 rounded-full">Hire Me</button>
+                    <button className=" text-black cursor-pointer hover:bg-[#F9AD1B] hover:text-white transition-all border-2 border-gray-500 font-semibold px-8 py-2 rounded-full animate__animated animate__backInRight">Whatsapp</button>
                 </div>
             </div>
        
