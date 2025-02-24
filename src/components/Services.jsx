@@ -16,22 +16,22 @@ const Services = () => {
             {/* card design */}
             <div className="mt-10">
                 <div className=" flex flex-col sm:flex-col md:flex-row items-center justify-around  gap-6    ">
-                <motion.div drag className="card w-[345px]  flex flex-col rounded-2xl shadow-2xl  hover:scale-125 transition-all gap-3 p-8 ">
+                <motion.div  className="card w-[345px]  flex flex-col rounded-2xl shadow-2xl  hover:scale-125 transition-all gap-3 p-8 ">
                     <img className="w-[90px]" src={embeded} alt="" />
                     <h1 className="heading  text-3xl font-semibold">Embedded Engineer</h1>
                     <p className="text text-[#737171] font-medium">Designs & develops optimized firmware and hardware solutions for embedded systems.</p>
                 </motion.div>
-                <motion.div drag className="card w-[345px]  flex flex-col gap-3 hover:scale-125 transition-all p-8 rounded-2xl shadow-2xl ">
+                <motion.div  className="card w-[345px]  flex flex-col gap-3 hover:scale-125 transition-all p-8 rounded-2xl shadow-2xl ">
                     <img className="w-[90px]" src={iot} alt="" />
                     <h1 className="heading  text-3xl font-semibold">Embedded Engineer</h1>
                     <p className="text text-[#737171] font-medium">Designs & develops optimized firmware and hardware solutions for embedded systems.</p>
                 </motion.div>
-                <motion.div drag className="card w-[345px]  flex flex-col gap-3 rounded-2xl p-8 shadow-2xl hover:scale-125 transition-all ">
+                <motion.div  className="card w-[345px]  flex flex-col gap-3 rounded-2xl p-8 shadow-2xl hover:scale-125 transition-all ">
                     <img className="w-[90px]" src={brand} alt="" />
                     <h1 className="heading  text-3xl font-semibold">Embedded Engineer</h1>
                     <p className="text text-[#737171] font-medium">Designs & develops optimized firmware and hardware solutions for embedded systems.</p>
                 </motion.div>
-                <motion.div drag className="card w-[345px]  flex flex-col gap-3 rounded-2xl p-8 shadow-2xl hover:scale-125 transition-all ">
+                <motion.div  className="card w-[345px]  flex flex-col gap-3 rounded-2xl p-8 shadow-2xl hover:scale-125 transition-all ">
                     <img className="w-[90px]" src={brand} alt="" />
                     <h1 className="heading  text-3xl font-semibold">Embedded Engineer</h1>
                     <p className="text text-[#737171] font-medium">Designs & develops optimized firmware and hardware solutions for embedded systems.</p>
