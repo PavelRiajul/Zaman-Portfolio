@@ -8,7 +8,7 @@ const App = () => {
   return (
     <ThemeProvider>
 <div>
-      {/* <Navbar/> */}
+      <Navbar/>
       <Routing/>
       <main>
       </main>
